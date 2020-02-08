@@ -1,0 +1,63 @@
+.future {
+    width: 100%;
+    height: 100vh;
+}
+
+.future h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding: 90px 0 0 40px;
+    transition: .5s;
+}
+
+.future p {
+    padding: 20px 0 0 40px;
+}
+
+.future .lists {
+    display: flex;
+    padding: 20px 0 0 40px;
+}
+
+.future .lists .list {
+    margin: 50px;
+}
+
+.future .lists .list .title {
+    list-style: none;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.contacts {
+    color: #000;
+    background: #eee;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 0 0 40px;
+}
+
+.contacts:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .lists {
+        display: grid !important;
+        padding: 0 0 0 10px;
+    }
+
+    .list {
+        margin: 0 !important;
+    }
+
+    .title {
+        margin: 20px 0 20px 0 !important;
+    }
+
+    .contacts {
+        position: absolute;
+        top: 380%;
+
+    }
+}
